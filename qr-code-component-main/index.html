@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | QR code component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      *{
+        box-sizing: border-box;
+        padding: 0%;
+        margin: 0%;
+      }
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        min-width: 80%;
+        margin: auto 1rem;
+      }
+      .attribution a {
+        color: hsl(227, 43%, 79%);
+      }
+      body {
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(181, 202, 218);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .content {
+        width: 20%;
+        background-color: azure;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 10px;
+        padding:20px .25rem ;
+      }
+      .image img {
+        width: 100%;
+        border-radius: 10px;
+      }
+      .image {
+        width: 90%;
+      }
+      .attribution h2{
+        font-weight: 900;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-bottom: 1rem;
+      }
+      @media screen and (max-width:500px) {
+        .content{
+          width: 80%;
+          height: auto;
+        }
+        .attribution h2{
+          padding-top: 15px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    
+      <div class="content">
+        <div class="image">
+          <img src="images/image-qr-code.png" alt="" />
+        </div>
+        <div class="attribution">
+          <h2>Improve your front-end skills by building projects</h2>
+          <p>
+            Scan the to visit Frontend Mentor and take your coding skills to the
+            next level
+          </p>
+        </div>
+      </div>
+    
+  </body>
+</html>
